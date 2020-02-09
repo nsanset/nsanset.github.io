@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial, sans-serif;
+
+}
+.calculator{
+	margin: 0 auto;
+	width:415px;
+	border: 3px solid #5e9d9f;
+	position: relative;
+	border-radius: 13px;
+	padding: 16px 0 0 0;
+}
+.name_calc{
+	width:411px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #5e9d9f;
+	padding: 13px 17px 20px 0;
+	text-align: right;
+}
+section{
+	padding: 16px 12px 0px ;
+	position: relative;
+}
+.display{
+	width:385px;
+	border: 3px solid #5e9d9f;
+	position: relative;
+	border-radius: 13px;
+	padding: 8px 0 8px 3px;
+}
+input{
+	width:370px;
+	border: none;
+	outline: none;
+	text-align: right;
+	font-size: 20px;
+	color:  #5e9d9f;
+	font-weight: bold;
+}
+.solar_panel{
+	padding: 10px 15px 65px 5px;
+	position: relative;
+}
+.panel{
+	height: 40px;
+	width:135px;
+	background-color: #5e9d9f;
+	position: absolute;
+	right: 0px;
+}
+.row{
+	width:100%;
+	height: 82px;
+	position: relative;
+}
+.btn{
+	position: absolute;
+
+}
+a{	
+	width: 80px;
+	height: 70px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	color: #5e9d9f;
+	padding: 20px 30px;
+	border-radius: 13px;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	border: 3px solid #5e9d9f;
+}
+a:hover {transform: scale(1.2);}
+a:active { background: #88d5d7}
+.btn_one{
+	position:absolute;
+	left: 0px;
+}
+.btn_two{
+	position:absolute;
+	left: 102px;
+}
+.btn_three{
+	position:absolute;
+	right: 102px;
+}
+.btn_four{
+	position:absolute;
+	right: 0px;
+}
+input a{
