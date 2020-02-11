@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+.wrap{
+margin: 0 auto;
+width:1054px;
+position: relative;
+background: #261d1f; 
+background: -moz-linear-gradient(top,  #261d1f 0%, #453634 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #261d1f 0%,#453634 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #261d1f 0%,#453634 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#261d1f', endColorstr='#453634',GradientType=0 ); /* IE6-9 */
+padding: 25px 0px 113px 50px;
+}
+.menu_item{
+		display:none;
+	width: 940px;
+	background-color: #fff;
+	position: relative;
+}
+img{
+	width: 330px;
+	height: 394px;
+	position: relative;
+	display: block;
+}
+.low_price_item{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	line-height: 37px;
+width:340px;
+height:215px;
+background-color: black;
+position: absolute;
+left: -17px;
+bottom: 25px;
+z-index: 1;
+padding: 35px 83px 18px;
+}
+.title{
+	text-align: center;
+	line-height: 40px;
+	font-size: 21px;
+}
+.action{
+	width: 610px;
+	height: 394px;
+	position: absolute;
+	top:0px;
+	left:330px;
+	padding: 36px 75px 40px 80px;
+}
+.row{
+	width: 455px;
+	height: 100px;
+	position: relative;
+	padding: 0 0 0 0;
+}
+.product_price{
+	width: 210px;
+	height: 80px;
+	font-size: 22px;
+	position: absolute;
+	border-bottom: 1px solid #d5d5d5;
+	text-align: center;
+	line-height: 30px;
+}
+.product_price ::before{
+content:"";
+width:10px;
+height:10px;
+background-color: #d5d5d5;
+position: absolute;
+bottom: -6px;
+left: 100px;
+transform: rotate(45deg);
+}
+p{
+	color: #999999;
+	text-align: center;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+span{
+	display: inline-block;
+	text-align: center;
+	line-height: 37px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.left_row{
+	left: 0;
+}
+.right_row{
+	right: 0;
+}
+.btn{
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	width: 177px;
+	height: 55px;
+	background-color: #000;
+	position: absolute;
+	bottom: 45px;
+	right: 63px;
+	padding: 15px 30px 15px;
+}
+.btn:hover{
+	cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.1s  ease;
+}
+.btn:active{
+  background-color: #47352e;
+  transition: all 0.1s  ease;
+
+}
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
