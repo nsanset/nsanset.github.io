@@ -1,0 +1,224 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* General */
+body{
+	background-image: url(../img/bg.png);
+	background-color: #383838;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-family:Metal Mania;
+	font-size: 90px;
+	text-align: center;
+}
+h2{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+h3{
+font-size: 13px;
+color: #fff;
+font-family:Open Sans;
+
+}
+.button{
+	text-align: center;
+display: block;
+	text-decoration: none;
+text-transform: uppercase;
+color:#fff;
+ padding: 17px 9px 17px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+background: #de0204; /* Old browsers */
+background: -moz-linear-gradient(left,  #de0204 0%, #ff356e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #de0204 0%,#ff356e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #de0204 0%,#ff356e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de0204', endColorstr='#ff356e',GradientType=1 ); /* IE6-9 */
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+/* Header */
+#topbar{
+	position:fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	top:0px;
+	z-index: 999;
+}
+header{
+	background-image: url(../img/bg-01.jpg);
+	min-height: 432px;
+	background-repeat: no-repeat;
+	background-position: center; 
+    padding-top: 150px;
+}
+li{	
+	line-height: 45px;
+    position: relative;
+    display: inline;
+    padding: 12px 14px 13px 18px;
+    color: #fff;;
+}
+li:hover{
+    text-decoration: none; 
+    color: #fff; 
+    background: red; 
+
+}
+li>a{
+	text-transform: uppercase;
+	font-family:Open Sans; 
+	color:#fff;
+	text-decoration: none;
+}
+/* Tour */
+#tour:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.tour-card {
+    width: 220px;
+    height: 240px;
+	position: relative;
+	float: left;
+	padding: 30px 10px 0; 
+
+margin-left: 10px;
+margin-right: 10px;
+}
+.madrid{
+	background-image: url(../img/tour/madrid.jpg);
+	background-repeat: no-repeat;
+}
+.turin{
+	background-image: url(../img/tour/turin.jpg);
+	background-repeat: no-repeat;
+}
+.hamburg{
+	background-image: url(../img/tour/hamburg.jpg);
+	background-repeat: no-repeat;
+}	
+.krakow{
+	background-image: url(../img/tour/krakow.jpg);
+	background-repeat: no-repeat;
+}
+.tour-town{
+font-size: 19px;
+color: #fff;
+text-transform: uppercase;
+font-family:Open Sans; 
+}
+.tour-place{
+line-height: 33px;
+font-size: 17px;
+color: #fff;
+font-family:Open Sans
+}
+.tour-date{
+line-height: 15px;
+font-size: 13px;
+color: #fff;
+font-family:Open Sans
+padding:50px 50px 50px;
+font-style: oblique;
+
+}
+/* Gallery */
+#gallery:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.photo{
+	position: relative;
+	float: left;
+	width:300px; 
+	height:300px;
+	margin: 10px;
+}
+/* Subscribe */
+#subscribe {
+    background: url(../img/bg-02.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+.pitch {
+    margin-bottom: 20px;
+}
+input {
+    border: 0;
+    height: 40px;
+    background-color: #fafafa;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    }
+button {
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+color:#fff;
+padding: 7px 33px 8px;
+font-family:Open Sans;
+background: linear-gradient(to right,  #de0204 0%,#ff356e 100%);
+border: none; 
+}
+button:hover{
+	cursor:pointer;
+}
+/* Footer */
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../img/bg.png);
+    text-align: center;
+}
+.pitch p{
+	color: #fff;
+}
+.social {
+    margin-bottom: 20px;
+}
+.social a {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.copyright {
+	color: #fff;
+	text-align: center;
+    font-size:14px;
+}
+.fa{
+	color: #fff;
+}
