@@ -1,0 +1,192 @@
+
+/* General */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 575px) {
+    header .brand{
+    float: none;
+    margin-left: 15px;
+    }
+    img {
+    display: block;
+    max-width: 100%;
+    }
+    .services .service {
+    width: 100%;
+    float: none;
+    }
+    .service {
+    width: 100%;
+    float: none;
+    }
+    .blog .post img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    }
+    .blog .post {
+    max-width: 270px;
+    margin: 0 auto;
+    display: block;
+    }
+    header .menu{
+    margin-right:15px;
+    }
+}
+body{
+ font-family: Raleway, sans-serif; 
+}
+.container{
+	margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+h1{
+color: #fff;
+font-size: 50px;
+}
+h2{
+    font-size: 28px;
+    color: #282828;
+    padding-bottom: 50px;
+    text-align: center;
+}
+h3{
+    line-height: 20px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+p{
+	color:#a6a6a6;
+	font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+img{
+	display: block;
+
+}
+/* Header */
+header{
+	padding-top: 20px;
+}
+.brand{
+	color:#62afe4;
+	font-size: 25px;
+    float:left;
+    margin-left: 15px;
+}
+header .menu{
+    margin-right:15px;
+    padding-top: 8px;
+	margin-bottom: 20px;
+}
+.menu li{
+	float:right;
+	display: inline;
+    margin-right: 5px;
+
+}
+.menu li a{
+	text-decoration: none;
+	color:#b6b6b6;
+}
+header .menu:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.jumbotron {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    text-align: center;
+}
+.jumbotron .button{
+	display: inline-block;
+	background-color: #fa5ba5;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 35px;
+}
+/* Services */
+.services{
+	padding-top: 70px;
+	text-align: center;
+	padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+.services:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.service {
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+.fa{
+	color: #979797;
+	text-align: center;
+    margin-bottom: 15px;
+}
+/* Blog */
+.blog{
+	padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.post img {
+    float: left;
+    margin-right: 30px;
+}
+.post{    
+    padding-top: 30px;
+    display: inline-block;
+}
+.date{
+    padding-bottom: 15px;
+}
+/* Footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #38404b;
+}
+footer .brand {
+    color: #bcc9dd;
+    float:none;
+}
+footer .menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .menu li a {
+    color: #bcc9dd;
+}
+footer .menu {
+    display: inline-block;
+    margin-top: 30px; 
+    margin-bottom: 15px;
+}
+.copyright {
+    font-size: 12px;
+    color: #cacbcd;
+}
