@@ -37,8 +37,10 @@ img{
 .wrap{
 	margin: 0 auto;
 	max-width: 960px;
-    width: 100%;
+	width: 100%;
 	background-color: #fff;
+	margin-top:27px;
+	margin-bottom: 27px;
 }
 /* Header */
 .wrap::before{
@@ -129,6 +131,10 @@ main span{
 }
 
 @media screen and (max-width: 904px) {
+	.wrap{
+	margin-top:0px;
+	margin-bottom: 0px;
+	}
 	h1{ 
 		text-align: center;
 	}
