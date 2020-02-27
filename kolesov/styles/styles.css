@@ -1,0 +1,190 @@
+
+/* General */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial, sans-serif;
+    background-size: cover;
+	background-image: url(../img/3.jpg);
+
+}
+:root {
+  --main-color: #023875;
+}
+h1{	
+color: var(--main-color);
+padding-bottom: 5px;
+padding-top: 10px;
+font-size: 48px;
+font-weight: 400;
+}
+h2{	
+color: var(--main-color);
+font-weight: 400;
+font-size: 24px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+}
+img{
+	padding-left: 8px;
+	display: block;
+}
+.wrap{
+	margin: 0 auto;
+	max-width: 960px;
+    width: 100%;
+	background-color: #fff;
+}
+/* Header */
+.wrap::before{
+  	content: "";
+  	position: relative;
+  	display: block;
+	width: 100%;
+	background-color: var(--main-color);
+	height:42px;
+	border-radius: 5px;
+}
+.clearfix{	
+	display: block;
+	clear: both;
+}
+header{
+	padding-top:26px;
+	padding-left:16px;
+	padding-right:16px;
+	margin-bottom: 30px;
+}
+header .title{
+	float: left;
+	position: relative;
+}
+header .image{
+	float: left;
+	position: relative;
+}
+header .contact{
+	float: right;
+	position: relative;
+}
+/* Content */
+main{	
+padding-top: 240px;
+padding-bottom: 115px;
+padding-left:16px;
+padding-right:16px;
+background-image: url(../img/2.png);
+display: block;
+background-position: top;
+background-repeat: no-repeat;
+width: 100%;	
+}
+main .content{
+width: 65%;
+float: left;
+}
+main .main_text{
+padding-top: 20px;
+}
+main nav .menu {
+	float: right;
+	list-style-type:none;
+
+}
+main a{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+main li{
+	padding-top:20px;
+	padding-left: 22px;
+}
+main span{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	padding-left:22px;
+	padding-right:22px;
+	background-color: var(--main-color);
+}
+/* Footer */
+.wrap::after{
+  	content: "© Банкетный теплоход КолесовЪ";
+  	color: #fff;
+  	font-size: 14px;
+  	text-indent: 25px;
+	line-height: 45px;
+  	position: relative;
+  	display: block;
+	width: 100%;
+	background-color: var(--main-color);
+	height: 42px;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 904px) {
+	h1{ 
+		text-align: center;
+	}
+	h2{ 
+		text-align: center;
+	}
+	p{
+	text-align: center;
+	line-height: 23px;
+	}
+	.image{
+		display: flex;
+		justify-content: center;
+	}
+	header .title{
+	float: none;
+	padding-left:20px;
+	padding-right:20px;
+    }
+    header .image{
+	float: none;
+	}
+	header .contact{
+	float: none;
+	}
+    main{
+	background-image:none;
+	padding-top: 0px;
+    }
+    main .content{
+	width: 100%;
+	float: none;
+	padding-left:25px;
+	padding-right:25px;
+	}
+	main nav .menu {
+	float: none;
+    }
+    main>.content>p{
+	text-align: justify;
+	}
+	main li {
+    padding-top: 0;
+    padding-left: 0;
+   margin-top: 25px;
+		display:flex;
+		justify-content: center;
+	}
+    main a {
+    	display: block;
+    border: 1px solid var(--main-color);
+	padding:10px;
+	text-decoration: none;
+    }
+    nav{
+    margin-top:40px; 
+	text-align: center;
+	}
+}
