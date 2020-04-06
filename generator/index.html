@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="styles/styles.css">
+
+	</head>
+	<body>
+		<div class="title">CSS Generator</div>
+		<div class="tabs" id="tabs">
+			<div class="tab whiteborder">border-radius</div>
+			<div class="tab">tab 2</div>
+			<div class="tab">tab 3</div>
+
+			<div class="tabContent">
+				<div>
+					<span>верх лівий кут:</span>
+					<input type="range" min="0" max="100" value="0" id="rtl" oninput="generate();">
+					<input type="text" value="0" id="ttl">
+				</div>
+				<div>
+					<span>верх правий кут:</span>
+					<input type="range" min="0" max="100" value="0" id="rtr" oninput="generate();">
+					<input type="text" value="0" id="ttr">
+				</div>
+				<div>
+					<span>низ лівий кут:</span>
+					<input type="range" min="0" max="100" value="0" id="rbl" oninput="generate();">
+					<input type="text" value="0" id="tbl">
+				</div>
+				<div>
+					<span>низ правий кут:</span>
+					<input type="range" min="0" max="100" value="0" id="rbr" oninput="generate();">
+					<input type="text" value="0" id="tbr">
+				</div>
+				<div class="result" id="result"></div>
+				<textarea id="code" rows="4" cols="50"></textarea>
+			</div>
+
+
+
+			<div class="tabContent">
+				<div>
+					<span>зміна по порядку:</span>
+					<input type="range" min="0" max="1" value="0" id="toggle" oninput="tabRow();">
+					<input type="text" value="0" id="toggle_numb">
+				</div>
+				<div class="row" id="row">
+						<div class="box1" id="box1">Блок 1</div>
+						<div class="box2" id="box2">Блок 2</div>
+					</div>
+				<textarea id="codetoggle" rows="4" cols="50"></textarea>
+			</div>
+
+
+
+			<div class="tabContent">
+				<div>
+					<span> offset-x:</span>
+					<input type="range" min="0" max="100" value="0" id="offsetX" oninput="textShadow();">
+					<input type="text" value="0" id="xValue">
+				</div>
+				<div>
+					<span> offset-y:</span>
+					<input type="range" min="0" max="50" value="0" id="offsetY" oninput="textShadow();">
+					<input type="text" value="0" id="yValue">
+				</div>
+				<div>
+					<span>blur-radius:</span>
+					<input type="range" min="0" max="100" value="0" id="blurRadius" oninput="textShadow();">
+					<input type="text" value="0" id="blurValue">
+				</div>
+				
+				<div class="resultShadow" id="resultShadow">Lorem ipsum dolor</div>
+				<textarea id="codeShadow" rows="4" cols="50"></textarea>
+				<button id="userButton">Копировать</button>
+			</div>
+		</div>
+		<script src="js/js.js"></script>
+	</body>
+</html>
