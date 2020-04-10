@@ -24,7 +24,7 @@ $(function(){
  	Email.send({
     SecureToken : "57dcf116-5f35-40e7-a808-31f31226f042",
     To : 'nagyrnyak@gmail.com',
-    From : "nagyrnyak@gmail.com",
+    From : "mazakiller@bigmir.net",
     Subject : "test",
     Body : "And this is the body"
 }).then(
