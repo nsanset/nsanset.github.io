@@ -83,7 +83,7 @@
 .slick-prev
 {
     right: 110px;
-    z-index: 999;
+    z-index: 900;
 }
 [dir='rtl'] .slick-prev
 {
@@ -103,7 +103,7 @@
 .slick-next
 {
     right: 28px;
-    z-index: 999;
+    z-index: 900;
 }
 [dir='rtl'] .slick-next
 {
@@ -207,23 +207,17 @@
 
 
 
-@media screen and (max-width:900px){
-    .slick-prev
-    {
-    left: 35px;
-    z-index: 999;
-    }
-    .slick-next
-    {
-    right: 35px;
-    z-index: 999;
-    }
-    .slick-prev,
-    .slick-next
-    {
-    bottom: 63%;
-    }
+@media (min-width: 721px) and (max-width: 900px){
     .slick-dots {
     width: 100%;
     bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:720px){
+    .slick-prev {
+    left: 28px;
+    }
+
 }
