@@ -83,7 +83,7 @@
 .slick-prev
 {
     right: 110px;
-    z-index: 900;
+    z-index: 3;
 }
 [dir='rtl'] .slick-prev
 {
@@ -103,7 +103,7 @@
 .slick-next
 {
     right: 28px;
-    z-index: 900;
+    z-index: 3;
 }
 [dir='rtl'] .slick-next
 {

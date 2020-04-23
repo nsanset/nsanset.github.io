@@ -494,6 +494,7 @@ header{
 	text-transform: uppercase;
 	padding-left: 68px;
 	padding-right: 110px;
+	overflow: auto;
 }
 .grid-text{
 	position: absolute;
@@ -503,7 +504,7 @@ header{
 	padding-right: 80px;
 	font-size: 16px;
 	line-height: 25px;
-	overflow: hidden;
+	overflow: auto;
 }
 .btn-show, .btn-hide{
 	position: absolute;
@@ -760,12 +761,16 @@ header{
 	background-color: rgba(2,22,35,0.7);
 	padding: 24px 24px 0px;
 }
-.address_text{
-	padding-left: 10px;
+.address_text, .address_text>a{
 	opacity: 0.7;
     color: #ffffff;
     font: 400 0.937rem/1.6 Raleway, sans-serif;
     margin-bottom: 4.56%;
+    margin-left: 10px;
+}
+.address_text>a{
+    margin-left: 0px;
+	text-decoration:none;
 }
 .address-map{
 	width:455px;
@@ -815,7 +820,7 @@ header{
 
 @media (min-width: 721px) and (max-width: 900px){
 	.menu__box {
-    padding: 200px 0;
+    padding: 20% 0;
     height: 100%;
 	}
     .menu__btn {
@@ -931,8 +936,16 @@ header{
 
 @media screen and (max-width:720px){
 	.menu__box {
-    padding: 190px 0;
+    padding: 20% 0;
     height: 100%;
+	}
+	.menu__item {
+    padding: 12px 24px;
+    color: #6cd4de;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    width: 175px;
 	}
     .menu__btn {
     position: fixed;
