@@ -563,7 +563,7 @@ header{
 }
 .btn-show, .btn-hide{
 	position: absolute;
-	width: 144px;
+	width: 160px;
 	left: 68px;
 	color: #fff;
 	text-transform: uppercase;
@@ -586,6 +586,9 @@ header{
 	content: "\2192";
     margin-left: 15px;
     font-size: 23px;
+}
+.btn-show:hover::after{
+    margin-left: 20px;
 }
 .grid-hidden{
 	position: absolute;
