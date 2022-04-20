@@ -285,8 +285,6 @@ header{
 	list-style: none;
 	text-align: center;
 	background-color: black;
-	opacity: 1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 	z-index: 4;
 }
